@@ -3,8 +3,6 @@ import { useDispatch } from 'react-redux'
 
 import { InputChange, FormSubmit } from '../../utils/TypeScript'
 import { login } from '../../redux/actions/authActions'
-// 92982507762-i6pgpl66apvsdcdk1rcjde8e5r5uc8il.apps.googleusercontent.com
-// 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
 
 const LoginPass = () => {
   const initialState = { email: '', password: '' }
